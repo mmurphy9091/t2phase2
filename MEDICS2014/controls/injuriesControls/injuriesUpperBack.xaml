@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="MEDICS2014.controls.injuriesControls.injuriesUpperBack"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Button Content="BACK" x:Name="backButton" Style="{StaticResource BackBtn}" Margin="848,457,0,0" Click="backButton_Click"/>
+        <Image Margin="102,58,210,68" Source="/MEDICS2014;component/Upper Back_01_cropped.png" Stretch="UniformToFill"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="rightUpperBackBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="306" Margin="494,83,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="291" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.429"/>
+        <Rectangle x:Name="rightUpperBackLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="641,69,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="56" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-31.218"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="rightUpperBackLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="818,40,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="leftUpperBackBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="306" Margin="102,83,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="291" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.429"/>
+        <Rectangle x:Name="leftUpperBackLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="120,83,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="56" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-150.322"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="leftUpperBackLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="42,45,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="thoracicSpineBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="339" Margin="393,150,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="101" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.429"/>
+        <Rectangle x:Name="thoracicSpineLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="475,456,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="56" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="39.604"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="thoracicSpineLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="528,457,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+
+    </Grid>
+</UserControl>

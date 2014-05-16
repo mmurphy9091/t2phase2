@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="MEDICS2014.controls.treamentsConrols.lactactedRingersDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Button x:Name="lactactedRingersButton250ml" Content="250ml" HorizontalAlignment="Left" Margin="329,22,0,0" VerticalAlignment="Top" Width="162" Height="126" Background="#FF44982A" FontSize="36" Click="lactactedRingersVolumeButton_Click"/>
+        <Button x:Name="lactactedRingersButton500ml" Content="500ml" HorizontalAlignment="Left" Margin="531,22,0,0" VerticalAlignment="Top" Width="162" Height="126" Background="#FF44982A" FontSize="36" Click="lactactedRingersVolumeButton_Click"/>
+        <Button x:Name="lactactedRingersButton1000ml" Content="1000ml" HorizontalAlignment="Left" Margin="729,22,0,0" VerticalAlignment="Top" Width="162" Height="126" Background="#FF44982A" FontSize="36" Click="lactactedRingersVolumeButton_Click"/>
+        <Label FontSize="45" Content="Volume" HorizontalAlignment="Left" Margin="72,51,0,0" VerticalAlignment="Top" Foreground="#FFCDA8A8"/>
+        <Label FontSize="45" Content="Route" HorizontalAlignment="Left" Margin="72,192,0,0" VerticalAlignment="Top" Foreground="#FFCDA8A8"/>
+        <Button x:Name="lactactedRingersButtonIM" Content="IM" HorizontalAlignment="Left" Margin="329,184,0,0" VerticalAlignment="Top" Width="121" Height="93" Background="#FF44982A" FontSize="36" Click="lactactedRingersRouteButton_Click"/>
+        <Button x:Name="lactactedRingersButtonIV" Content="IV" HorizontalAlignment="Left" Margin="485,184,0,0" VerticalAlignment="Top" Width="121" Height="93" Background="#FF44982A" FontSize="36" Click="lactactedRingersRouteButton_Click"/>
+        <Button x:Name="lactactedRingersButtonPO" Content="PO" HorizontalAlignment="Left" Margin="641,184,0,0" VerticalAlignment="Top" Width="121" Height="93" Background="#FF44982A" FontSize="36" Click="lactactedRingersRouteButton_Click"/>
+        <Button x:Name="lactactedRingersButtonPR" Content="PR" HorizontalAlignment="Left" Margin="797,184,0,0" VerticalAlignment="Top" Width="121" Height="93" Background="#FF44982A" FontSize="36" Click="lactactedRingersRouteButton_Click"/>
+        <Button x:Name="lactactedRingersButtonSL" Content="SL" HorizontalAlignment="Left" Margin="485,302,0,0" VerticalAlignment="Top" Width="121" Height="94" Background="#FF44982A" FontSize="36" Click="lactactedRingersRouteButton_Click"/>
+        <Button x:Name="lactactedRingersButtonSQ" Content="SQ" HorizontalAlignment="Left" Margin="641,302,0,0" VerticalAlignment="Top" Width="121" Height="94" Background="#FF44982A" FontSize="36" Click="lactactedRingersRouteButton_Click"/>
+        <Label FontSize="45" Content="Time" HorizontalAlignment="Left" Margin="72,421,0,0" VerticalAlignment="Top" Foreground="#FFCDA8A8"/>
+        <TextBox Name="timeTextBox" FontSize="36" HorizontalAlignment="Left" Height="auto" Margin="329,437,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="232"/>
+        <Button Name="getCurrentTimeButton" FontSize="16" Content="Current Time" HorizontalAlignment="Left" Margin="572,421,0,0" VerticalAlignment="Top" Width="121" Height="94" Click="getCurrentTimeButton_Click"/>
+        <Button x:Name="doneButton" FontSize="36" Content="DONE" HorizontalAlignment="Left" Margin="867,421,0,0" VerticalAlignment="Top" Width="121" Height="94" Click="doneButton_Click"/>
+    </Grid>
+</UserControl>

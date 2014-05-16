@@ -1,0 +1,12 @@
+medics/data/1- VDES COMMANDS
+medics/data/2- VDES data entry
+medics/data/3- DELETE patient topic
+medics/data/4- get all patient data data (answer)
+medics/data/5- get all patient data command (question)
+medics/data/6- post data to DB (JSON format)
+medics/data/7- 
+medics/data/8- patient list return
+medics/data/9- get patient list, add new patient
+medics/data/10- replication work
+medics/data/11- Controller to DB interaction SEND
+medics/data/12- Controller to DB interaction GET

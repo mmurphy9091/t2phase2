@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="MEDICS2014.controls.allergiesMain"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Button x:Name="medicationsButton" Content="Medications" Style="{StaticResource TextBtn1}" Margin="79,72,0,0" Click="medicationsButton_Click" Height="124"/>
+        <Button x:Name="foodButton" Content="Food" Style="{StaticResource TextBtn1}" Margin="292,72,0,0" Click="foodButton_Click"/>
+        <Button x:Name="backButton" Content="BACK" Style="{StaticResource BackBtn}" Margin="848,457,0,0" Click="backButton_Click"/>
+
+    </Grid>
+</UserControl>

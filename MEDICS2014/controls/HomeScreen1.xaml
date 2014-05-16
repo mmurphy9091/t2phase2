@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="MEDICS2014.controls.HomeScreen1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+
+    <Grid>
+        <Grid Background="#FF303030"/>
+
+        <Button x:Name="AdminApp" Style="{StaticResource HomeBtn}" Content="Admin" Margin="40,31,0,0" Click="AdminApp_Click"></Button>
+
+        <Button x:Name="injuryApp" Style="{StaticResource HomeBtn}" Content="Injury" Margin="345,31,0,0" Click="injuryApp_Click"></Button>
+
+        <Button x:Name="sasApp" Style="{StaticResource HomeBtn}" Content="  Signs &amp;&#xD;&#xA;Symptoms" Margin="650,31,0,0" Click="sasApp_Click"></Button>
+
+        <Button x:Name="treatmentsApp" Style="{StaticResource HomeBtn}" Content="Treatments" Margin="40,202,0,0" Click="treatmentsApp_Click"></Button>
+
+        <Button x:Name="medicationsApp" Style="{StaticResource HomeBtn}" Content="Medications" Margin="345,202,0,0" Click="medicationsApp_Click" VerticalAlignment="Top"></Button>
+
+        <Button x:Name="notesApp" Style="{StaticResource HomeBtn}" Content="Notes" Margin="650,202,0,0" Click="notesApp_Click"></Button>
+
+        <Button x:Name="next_button" Style="{StaticResource HomeBtn}" Content=">" Margin="932,174,0,0" Width="56" Height="195" FontSize="48" Click="nextButton_Click"></Button>
+
+        <Button x:Name="allergiesApp" Style="{StaticResource HomeBtn}" Content="Allergies" Margin="40,381,0,0" Click="allergiesApp_Click"></Button>
+        <Button x:Name="pcdApp" Style="{StaticResource HomeBtn}" Content="PCD" Margin="345,381,0,0" Click="pcdApp_Click"/>
+        <Button x:Name="deleteButton" Style="{StaticResource HomeBtn}" Content="Delete" Margin="650,381,0,0" Height="60" Click="deleteButton_Click"/>
+        <Button x:Name="exitButton" Style="{StaticResource HomeBtn}" Content="EXIT" Margin="650,456,0,0" Height="60" Click="exitButton_Click"/>
+
+
+    </Grid>
+</UserControl>

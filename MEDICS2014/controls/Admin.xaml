@@ -1,0 +1,57 @@
+﻿<UserControl x:Class="MEDICS2014.controls.Admin"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998"
+             LostFocus="UserControl_LostFocus">
+
+    <UserControl.Resources>
+
+        <!--<Style x:Key="AdminLabel" TargetType="{x:Type Label}">
+            --><!--<Setter Property="Background" Value="#FF303030"/>--><!--
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Width" Value="140"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+        </Style>-->
+
+    </UserControl.Resources>
+
+    <Grid>
+
+        <TextBox x:Name="firstNameTextBox" Style="{StaticResource DefTextBx}" Margin="22,47,0,0" TextWrapping="Wrap"/>
+        <Label Content="First Name" Style="{StaticResource DefTextLabel}" Margin="22,11,0,0" Width="167"/>
+        <TextBox x:Name="middleNameTextBox" Style="{StaticResource DefTextBx}" Margin="22,148,0,0" TextWrapping="Wrap"/>
+        <Label Content="Middle Name" Style="{StaticResource DefTextLabel}" Margin="22,111,0,0" Width="167"/>
+        <TextBox x:Name="lastNameTextbox" Style="{StaticResource DefTextBx}" Margin="22,249,0,0" TextWrapping="Wrap"/>
+        <Label Content="Last Name"  Style="{StaticResource DefTextLabel}" Margin="22,210,0,0" Width="167"/>
+        <TextBox x:Name="last4TextBox" Style="{StaticResource DefTextBx}" Margin="22,349,0,0" TextWrapping="Wrap"/>
+        <Label Content="Last 4" Style="{StaticResource DefTextLabel}" Margin="22,313,0,0" Width="167"/>
+        <TextBox x:Name="serviceTextBox" Style="{StaticResource DefTextBx}" Margin="22,450,0,0" TextWrapping="Wrap"/>
+        <Label Content="Service"  Style="{StaticResource DefTextLabel}" Margin="22,414,0,0" Width="167"/>
+        <TextBox x:Name="dateTextBox" Style="{StaticResource DefTextBx}" Margin="631,50,0,0" TextWrapping="Wrap" Width="155"/>
+        <Label Content="Date"  Style="{StaticResource DefTextLabel}" Margin="631,13,0,0"/>
+        <TextBox x:Name="timeTextBox" Style="{StaticResource DefTextBx}" Margin="631,185,0,0" TextWrapping="Wrap" Width="155"/>
+        <Label Content="Time"  Style="{StaticResource DefTextLabel}" Margin="631,153,0,0"/>
+        <GroupBox x:Name="genderGroupBox" Header="Gender" HorizontalAlignment="Left" Margin="334,20,0,0" VerticalAlignment="Top" Height="212" Width="230" Foreground="#FFE6D2D2" FontSize="18">
+            <StackPanel HorizontalAlignment="Left" Height="190" VerticalAlignment="Top" Width="230" Margin="0,0,-12,-6">
+                <RadioButton x:Name="maleRadioButton" Content="Male" Height="92" Foreground="#FFE6D2D2" FontSize="24" VerticalAlignment="Center" Width="210" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" Click="genderRadioButton_Click" Margin="0,0,10,0"/>
+                <RadioButton x:Name="femaleRadioButton" Content="Female" RenderTransformOrigin="0.502,5.201" Height="85" Margin="10,0" Foreground="#FFE6D2D2" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="genderRadioButton_Click"/>
+            </StackPanel>
+        </GroupBox>
+        <TextBox x:Name="unitTextBox" Style="{StaticResource DefTextBx}" Margin="334,450,0,0" TextWrapping="Wrap" Height="48"/>
+        <Label Content="Unit"  Style="{StaticResource DefTextLabel}" Margin="334,413,0,0"/>
+        <Button x:Name="currentDateButton" Style="{StaticResource DefaultBtn}" Content="Current Date" Margin="793,50,0,0" Width="155" Height="48" FontSize="24" Click="currentDateButton_Click"/>
+        <Button x:Name="currentTimeButton" Style="{StaticResource DefaultBtn}" Content="Current Time" Margin="793,185,0,0" Width="155" Height="48" FontSize="24" Click="currentTimeButton_Click"/>
+        <Button Content="Allergies" Style="{StaticResource DefaultBtn}" Name="allergiesButton" Click="allergiesButton_Click" Margin="778,443,0,0"/>
+        <TextBox x:Name="weightTexgtBox" Style="{StaticResource DefTextBx}" Margin="334,348,0,0" TextWrapping="Wrap" Width="167" Height="49"/>
+        <Label Content="Weight" Style="{StaticResource DefTextLabel}" Margin="334,307,0,0" />
+        <ComboBox SelectionChanged="weightTypeComboBox_SelectionChanged" x:Name="weightTypeComboBox" HorizontalAlignment="Left" Margin="506,349,0,0" VerticalAlignment="Top" Width="103" Height="48" FontSize="24" Background="#FF303030" Foreground="#FFE0E0E0" >
+            <ComboBoxItem Content="LBS" HorizontalAlignment="Left" Width="264" Background="#FF303030"/>
+            <ComboBoxItem Content="KG" HorizontalAlignment="Left" Width="264" Background="#FF303030"/>
+        </ComboBox>
+    </Grid>
+</UserControl>

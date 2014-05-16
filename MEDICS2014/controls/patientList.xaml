@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="MEDICS2014.controls.patientList"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="760" d:DesignWidth="383">
+
+    <!--<UserControl.Resources>
+        <Style x:Key="MainBtn" TargetType="{x:Type Button}">
+            <Setter Property="FontSize" Value="36"/>
+            <Setter Property="Foreground" Value="White"/>
+            --><!--<Setter Property="OverridesDefaultStyle" Value="True"/>--><!--
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="210"/>
+            <Setter Property="Height" Value="120"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FF474646" Offset="0.362"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF646161" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>-->
+    
+    <Grid>
+        <Button Name="patButton1" FontSize="36" Style="{StaticResource DefaultBtn}" Content="Patient ID" HorizontalAlignment="Left" VerticalAlignment="Top" Width="383" Height="120" Click="Button_Click"/>
+        <Button Name="patButton2" FontSize="36" Style="{StaticResource DefaultBtn}" Content="Patient ID" HorizontalAlignment="Left" VerticalAlignment="Top" Width="383" Height="120" Margin="0,120,0,0" Click="Button_Click"/>
+        <Button Name="patButton3" FontSize="36" Style="{StaticResource DefaultBtn}" Content="Patient ID" HorizontalAlignment="Left" VerticalAlignment="Top" Width="383" Height="120" Margin="0,240,0,0" Click="Button_Click"/>
+        <Button Name="patButton4" FontSize="36" Style="{StaticResource DefaultBtn}" Content="Patient ID" HorizontalAlignment="Left" VerticalAlignment="Top" Width="383" Height="120" Margin="0,356,0,0" Click="Button_Click"/>
+        <Button Name="patButton5" FontSize="36" Style="{StaticResource DefaultBtn}" Content="Patient ID" HorizontalAlignment="Left" VerticalAlignment="Top" Width="383" Height="120" Margin="0,476,0,0" Click="Button_Click"/>
+        <Button Name="patButton6" FontSize="36" Style="{StaticResource DefaultBtn}" Content="Patient ID" HorizontalAlignment="Left" VerticalAlignment="Top" Width="383" Height="120" Margin="0,596,0,0" Click="Button_Click"/>
+
+    </Grid>
+</UserControl>

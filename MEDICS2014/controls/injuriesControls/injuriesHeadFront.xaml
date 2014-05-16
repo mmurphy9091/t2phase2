@@ -1,0 +1,161 @@
+﻿<UserControl x:Class="MEDICS2014.controls.injuriesControls.injuriesHead"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Image Margin="244,0,252,0" Source="/MEDICS2014;component/Head_01_cropped.png" Stretch="UniformToFill"/>
+        <Button Content="BACK" x:Name="backButton" Style="{StaticResource BackBtn}" Margin="848,457,0,0" Click="backButton_Click"/>
+        <Rectangle MouseUp="locationBox_MouseUp" Name="foreheadBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="151" Margin="325,54,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="335" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313">
+
+        </Rectangle>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="rightEyeBox" StrokeThickness="5" HorizontalAlignment="Left" Height="93" Margin="367,199,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="114" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="leftEyeBox" StrokeThickness="5" HorizontalAlignment="Left" Height="93" Margin="514,199,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="114" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="noseBox" StrokeThickness="5" HorizontalAlignment="Left" Height="117" Margin="457,237,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="86" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="rightEarBox" StrokeThickness="5" HorizontalAlignment="Left" Height="157" Margin="281,213,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="86" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="leftEarBox" StrokeThickness="5" HorizontalAlignment="Left" Height="157" Margin="633,213,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="86" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="rightCheekBox" StrokeThickness="5" HorizontalAlignment="Left" Height="156" Margin="366,278,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="69" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="leftCheekBox" StrokeThickness="5" HorizontalAlignment="Left" Height="156" Margin="564,278,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="69" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="mouthBox" StrokeThickness="5" HorizontalAlignment="Left" Height="80" Margin="435,354,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="129" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="chinBox" StrokeThickness="5" HorizontalAlignment="Left" Height="80" Margin="405,434,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="186" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="foreheadLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="616,72,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="116" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Name="foreheadLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="731,48,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle x:Name="leftEyeLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="598,205,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="83" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="leftEyeLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="682,183,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle x:Name="leftEarLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="715,265,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="83" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="leftEarLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="795,243,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle x:Name="leftCheekLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="628,382,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="83" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="leftCheekLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="712,360,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle x:Name="chinLine" StrokeThickness="5" HorizontalAlignment="Left" Height="4" Margin="589,472,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="83" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="chinLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="673,450,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle x:Name="mouthLine" StrokeThickness="5" HorizontalAlignment="Left" Height="4" Margin="307,449,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="158" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-19.008"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="mouthLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="241,471,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle x:Name="rightCheekLine" StrokeThickness="5" HorizontalAlignment="Left" Height="4" Margin="217,407,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="158" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-19.008"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="rightCheekLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="147,433,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle x:Name="rightEarLine" StrokeThickness="5" HorizontalAlignment="Left" Height="4" Margin="131,341,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="158" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-19.008"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="rightEarLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="61,367,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle x:Name="rightEyeLine" StrokeThickness="5" HorizontalAlignment="Left" Height="4" Margin="245,160,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="158" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="51.91"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="rightEyeLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="195,59,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle x:Name="noseLine" StrokeThickness="5" HorizontalAlignment="Left" Height="4" Margin="227,242,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="239" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="20.834"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="noseLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="168,164,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+
+    </Grid>
+</UserControl>

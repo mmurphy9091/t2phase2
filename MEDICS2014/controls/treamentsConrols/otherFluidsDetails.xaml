@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="MEDICS2014.controls.treamentsConrols.otherFluidsDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Label FontSize="45" Content="Route" HorizontalAlignment="Left" Margin="72,248,0,0" VerticalAlignment="Top" Foreground="#FFCDA8A8"/>
+        <Button x:Name="otherButtonIM" Content="IM" HorizontalAlignment="Left" Margin="329,250,0,0" VerticalAlignment="Top" Width="121" Height="63" Background="#FF44982A" FontSize="36" Click="otherRouteButton_Click"/>
+        <Button x:Name="otherButtonIV" Content="IV" HorizontalAlignment="Left" Margin="485,250,0,0" VerticalAlignment="Top" Width="121" Height="63" Background="#FF44982A" FontSize="36" Click="otherRouteButton_Click"/>
+        <Button x:Name="otherButtonPO" Content="PO" HorizontalAlignment="Left" Margin="641,250,0,0" VerticalAlignment="Top" Width="121" Height="63" Background="#FF44982A" FontSize="36" Click="otherRouteButton_Click"/>
+        <Button x:Name="otherButtonPR" Content="PR" HorizontalAlignment="Left" Margin="797,250,0,0" VerticalAlignment="Top" Width="121" Height="63" Background="#FF44982A" FontSize="36" Click="otherRouteButton_Click"/>
+        <Button x:Name="otherButtonSL" Content="SL" HorizontalAlignment="Left" Margin="485,338,0,0" VerticalAlignment="Top" Width="121" Height="63" Background="#FF44982A" FontSize="36" Click="otherRouteButton_Click"/>
+        <Button x:Name="otherButtonSQ" Content="SQ" HorizontalAlignment="Left" Margin="641,338,0,0" VerticalAlignment="Top" Width="121" Height="63" Background="#FF44982A" FontSize="36" Click="otherRouteButton_Click"/>
+        <Label FontSize="45" Content="Time" HorizontalAlignment="Left" Margin="72,421,0,0" VerticalAlignment="Top" Foreground="#FFCDA8A8"/>
+        <TextBox x:Name="timeTextBox" FontSize="36" HorizontalAlignment="Left" Height="auto" Margin="329,437,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="232" GotFocus="textBox_GotFocus"/>
+        <Button x:Name="getCurrentTimeButton" FontSize="16" Content="Current Time" HorizontalAlignment="Left" Margin="572,421,0,0" VerticalAlignment="Top" Width="121" Height="94" Click="getCurrentTimeButton_Click"/>
+        <Button x:Name="doneButton" FontSize="36" Content="DONE" HorizontalAlignment="Left" Margin="867,421,0,0" VerticalAlignment="Top" Width="121" Height="94" Click="doneButton_Click"/>
+        <Label FontSize="45" Content="Dose" HorizontalAlignment="Left" Margin="72,140,0,0" VerticalAlignment="Top" Foreground="#FFCDA8A8"/>
+        <Label FontSize="45" Content="Type" HorizontalAlignment="Left" Margin="72,29,0,0" VerticalAlignment="Top" Foreground="#FFCDA8A8"/>
+        <TextBox x:Name="doseTextBox" FontSize="36" HorizontalAlignment="Left" Height="auto" Margin="329,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="603" GotFocus="textBox_GotFocus"/>
+        <TextBox x:Name="typeTextBox" FontSize="36" HorizontalAlignment="Left" Height="auto" Margin="329,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="603" GotFocus="textBox_GotFocus"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,225 @@
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\bin\Debug\MEDICS2014.exe.config
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\bin\Debug\MEDICS2014.exe
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\bin\Debug\MEDICS2014.pdb
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.csprojResolveAssemblyReference.cache
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\MainWindow.baml
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\MainWindow.g.cs
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\App.g.cs
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014_MarkupCompile.cache
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.g.resources
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.Properties.Resources.resources
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.csproj.GenerateResource.Cache
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.exe
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.pdb
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\HomeScreen1.baml
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\HomeScreen1.g.cs
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\Admin.baml
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\Admin.g.cs
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\vitals.baml
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\vitals.g.cs
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\mechanismOfInjury.baml
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\mechanismOfInjury.g.cs
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesFull.baml
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesMain.baml
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesFull.g.cs
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesMain.g.cs
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\vitalsMain.baml
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\vitalsMain.g.cs
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\vitalsAdd.baml
+C:\Users\mm6762\Documents\Visual Studio 2012\Projects\MEDICS2014\MEDICS2014\obj\Debug\controls\vitalsAdd.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\bin\Debug\MEDICS2014.exe.config
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.exe
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.pdb
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\bin\Debug\MEDICS2014.exe
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\bin\Debug\MEDICS2014.pdb
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.csprojResolveAssemblyReference.cache
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\Admin.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\HomeScreen1.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesFull.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesMain.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\mechanismOfInjury.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\patientSummary.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\vitals.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\vitalsAdd.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\vitalsMain.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\MainWindow.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\Admin.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\HomeScreen1.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesFull.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesMain.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\mechanismOfInjury.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\patientSummary.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\vitals.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\vitalsAdd.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\vitalsMain.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\MainWindow.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\App.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014_MarkupCompile.cache
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.g.resources
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.Properties.Resources.resources
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\MEDICS2014.csproj.GenerateResource.Cache
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\bin\Debug\Newtonsoft.Json.dll
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\bin\Debug\Newtonsoft.Json.xml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\allergiesApp.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\allergiesApp.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\allergiesMain.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\allergiesMedications.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\allergiesMedications2.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\allergiesMain.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\allergiesMedications.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\allergiesMedications2.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftLeg.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftLeg.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesHeadFront.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftArmFront.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightArmFront.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightLegFront.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesHeadFront.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftArmFront.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightArmFront.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightLegFront.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesChest.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesChest.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesAbdomen.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesAbdomen.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesHeadBack.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLowerBack.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesUpperBack.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftArmBack.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftLegBack.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightArmBack.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightLegBack.baml
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesHeadBack.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLowerBack.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesUpperBack.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftArmBack.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftLegBack.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightArmBack.g.cs
+C:\Users\t2rwpmu-04\Documents\MEDICS2014\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightLegBack.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\bin\Debug\MEDICS2014.exe.config
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\bin\Debug\MEDICS2014.exe
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\bin\Debug\MEDICS2014.pdb
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\Admin.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\allergiesApp.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\allergiesMain.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\allergiesMedications.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\allergiesMedications2.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\HomeScreen1.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesAbdomen.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesChest.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesFull.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesHeadBack.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesHeadFront.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftArmFront.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftLeg.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLowerBack.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightArmFront.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightLegFront.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesUpperBack.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftArmBack.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftLegBack.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightArmBack.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightLegBack.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesMain.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesPatSum.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\mechanismOfInjury.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\patientSummary.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\vitals.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\vitalsAdd.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\vitalsMain.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\MainWindow.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\Admin.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\allergiesApp.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\allergiesMain.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\allergiesMedications.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\allergiesMedications2.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\HomeScreen1.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesAbdomen.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesChest.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesFull.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesHeadBack.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesHeadFront.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftArmFront.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftLeg.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLowerBack.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightArmFront.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightLegFront.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesUpperBack.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftArmBack.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesLeftLegBack.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightArmBack.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesControls\injuriesRightLegBack.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesMain.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\injuriesPatSum.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\mechanismOfInjury.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\patientSummary.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\vitals.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\vitalsAdd.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\vitalsMain.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\MainWindow.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\App.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\MEDICS2014_MarkupCompile.cache
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\MEDICS2014.g.resources
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\MEDICS2014.Properties.Resources.resources
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\MEDICS2014.csproj.GenerateResource.Cache
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\MEDICS2014.exe
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\MEDICS2014.pdb
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\dextroseDetails.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\lactactedRingersDetails.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\normalSalineDetails.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\otherFluidsDetails.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsAirway.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsBloodProducts.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsBreathing.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsCirculation.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsFluids.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsMain.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treatmentsApp.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\dextroseDetails.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\lactactedRingersDetails.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\normalSalineDetails.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\otherFluidsDetails.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsAirway.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsBloodProducts.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsBreathing.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsCirculation.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsFluids.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsMain.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treatmentsApp.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsApp.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsPage1.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\bloodProductsDetails.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\otherBloodProductsDetails.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsApp.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsPage1.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\bloodProductsDetails.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\otherBloodProductsDetails.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medDetails.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsAnalgesic1.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsAntibiotic1.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsAntibiotic2.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsOthers1.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsUnits.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\notesApp.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medDetails.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsAnalgesic1.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsAntibiotic1.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsAntibiotic2.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsOthers1.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\medsControls\medsUnits.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\notesApp.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsOther.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\treamentsConrols\treatmentsOther.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\bin\Debug\Microsoft.Json.dll
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\bin\Debug\Microsoft.Server.Common.dll
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\bin\Debug\Microsoft.Json.xml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\App.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\patientList.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\patientList.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\allergiesMedications3.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\allergiesMedications3.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\pcdApp.baml
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\controls\pcdApp.g.cs
+C:\Users\SMiller\Source\Workspaces\Workspace\T2-2014\UD\MEDICS2014\obj\Debug\MEDICS2014.csprojResolveAssemblyReference.cache

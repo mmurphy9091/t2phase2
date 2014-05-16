@@ -1,0 +1,5 @@
+ap/data/1- vitals data
+ap/data/2 - db updates
+ap/data/3 - replication channel
+ap/data/4 - PCDID call
+ap/data/5 - PCDID get

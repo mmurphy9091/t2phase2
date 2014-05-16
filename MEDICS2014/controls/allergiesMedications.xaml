@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="MEDICS2014.controls.allergiesMedications"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Label Content="MEDICATION ALLERGIES  Page 1" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Foreground="White"/>
+        <Button x:Name="AllopurinolButton" Content="Allopurinol" Style="{StaticResource TextBtn1}" Margin="12,71,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="AminoglycosidesButton" Content="Aminoglycosides" Style="{StaticResource TextBtn1}" Margin="244,71,0,0" FontSize="26" Click="allergyButton_Click"/>
+        <Button x:Name="AspirinButton" Content="Aspirin" Style="{StaticResource TextBtn1}" Margin="472,71,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="BarbituratesButton" Content="Barbiturates" Style="{StaticResource TextBtn1}" Margin="702,71,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="BeeVenomButton" Content="Bee Venom" Style="{StaticResource TextBtn1}" Margin="12,228,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="BenzodiazepinesButton" Content="Benzodiazepines" Style="{StaticResource TextBtn1}" Margin="242,228,0,0" FontSize="26" Click="allergyButton_Click"/>
+        <Button x:Name="CephalosporinsButton" Content="Cephalosporins" Style="{StaticResource TextBtn1}" Margin="472,228,0,0" FontSize="28" Click="allergyButton_Click"/>
+        <Button x:Name="CodeineButton" Content="Codeine" Style="{StaticResource TextBtn1}" Margin="702,228,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="DemerolButton" Content="Demerol" Style="{StaticResource TextBtn1}" Margin="12,385,0,0"  Click="allergyButton_Click"/>
+        <Button x:Name="FlagylButton" Content="Flagyl" Style="{StaticResource TextBtn1}" Margin="242,385,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="InsulinsButton" Content="Insulins" Style="{StaticResource TextBtn1}" Margin="472,385,0,0" Click="allergyButton_Click"/>
+        <Button Content="Back" Name="backButton" Style="{StaticResource BackBtn}" Margin="848,457,0,0" Click="backButton_Click"/>
+        <Button x:Name="nextButton" Content=">" Style="{StaticResource NextBtn}" Margin="933,71,0,0" Click="nextButton_Click" Height="282"/>
+
+    </Grid>
+</UserControl>

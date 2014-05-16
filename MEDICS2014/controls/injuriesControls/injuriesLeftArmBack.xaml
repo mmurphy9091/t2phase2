@@ -1,0 +1,280 @@
+﻿<UserControl x:Class="MEDICS2014.controls.injuriesControls.leftArmBack"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Button Content="BACK" x:Name="backButton" Style="{StaticResource BackBtn}" Margin="848,457,0,0" Click="backButton_Click"/>
+        <Button x:Name="getCurrentTimeButton" Style="{StaticResource DefaultBtn}" Content="Current Time" Margin="10,461,0,0" Width="216" Height="64" FontSize="24" Click="getCurrentTimeButton_Click"/>
+        <Label Foreground="White" FontSize="24" Content="Lt Arm TQ Type:" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White" FontSize="24" Content="Time:" HorizontalAlignment="Left" Margin="10,335,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="typeTextBox" Style="{StaticResource DefTextBx}" HorizontalAlignment="Left" Height="60" Margin="10,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" LostFocus="TextBox_LostFocus"/>
+        <TextBox Name="timeTextBox" Style="{StaticResource DefTextBx}" HorizontalAlignment="Left" Height="60" Margin="10,375,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" LostFocus="TextBox_LostFocus"/>
+
+        <Image Margin="393,10,248,28" Source="/MEDICS2014;component/Left Arm_01_cropped.png" Stretch="UniformToFill"/>
+        <!--<GroupBox Header="TQ: L Arm" HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top" Height="231" Width="216" FontSize="24" Foreground="White" Background="Black">
+            <StackPanel HorizontalAlignment="Left" Height="178" VerticalAlignment="Top" Width="196" Margin="0,10,0,0">
+                <TextBox Height="112" TextWrapping="Wrap" Text="Type:  " FontSize="24" Background="#FF303030" Foreground="White" Margin="10,0,0,0"/>
+                <TextBox x:Name="timeTextBox" Height="63" TextWrapping="Wrap" Text="Time:  " FontSize="24" Background="#FF303030" Foreground="White" Margin="10,0,0,0"/>
+            </StackPanel>
+        </GroupBox>-->
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="postLeftShoulderBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="106" Margin="676,27,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="114" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313"/>
+        <Rectangle x:Name="postLeftShoulderLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="616,47,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="72" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftShoulderLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="544,10,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="postLeftMedialBicepBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="115" Margin="693,125,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="53" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.573,0.504">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="43.737"/>
+                    <TranslateTransform X="-1.368" Y="2.558"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="postLeftMedialBicepLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="762,167,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="59" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="26.207"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftMedialBicepLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="818,169,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="postLeftLateralBicepBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="106" Margin="648,103,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="53" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="43.737"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="postLeftLateralBicepLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="590,133,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="72" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftLateralBicepLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="522,90,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="postLeftElbowBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="55" Margin="601,202,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="85" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="36.957"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="postLeftElbowLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="676,227,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="72" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftElbowLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="751,212,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="postLeftProximalMedialForearmBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="51" Margin="618,248,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="44" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="43.737"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="postLeftProximalMedialForearmLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="660,279,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="72" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftProximalMedialForearmLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="732,263,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="postLeftMiddleMedialForearmBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="50" Margin="587,281,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="42" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="43.737"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="postLeftMiddleMedialForearmLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="626,310,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="72" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftMiddleMedialForearmLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="698,294,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="postLeftDistalMedialForearmBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="58" Margin="552,314,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="42" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="43.737"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="postLeftDistalMedialForearmLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="590,350,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="72" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftDistalMedialForearmLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="662,334,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="postLeftProximalLateralForearmBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="51" Margin="575,229,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="47" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="43.737"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="postLeftMiddleLateralForearmBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="48" Margin="545,266,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="48" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="43.737"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle MouseUp="locationBox_MouseUp"  x:Name="postLeftDistalLateralForearmBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="54" Margin="519,301,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="42" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="43.737"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="postLeftProximalLateralForearmLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="556,224,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="33" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-138.896"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftProximalLateralForearmLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="509,182,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle x:Name="postLeftMiddleLateralForearmLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="479,244,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="87" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-138.896"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftMiddleLateralForearmLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="430,180,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3" RenderTransformOrigin="0.206,0.581"/>
+        <Rectangle x:Name="postLeftDistalLateralForearmLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="385,270,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="153" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-138.896"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftDistalLateralForearmLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="337,176,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3" RenderTransformOrigin="0.206,0.581"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="postLeftWristBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="58" Margin="501,355,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="48" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="43.737"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="postLeftWristLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="544,393,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="72" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftWristLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="616,377,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="leftHandBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="58" Margin="455,394,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="61" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="43.737"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="leftHandLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="509,436,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="72" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="leftHandLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="581,420,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="postLeftFingersBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="74" Margin="389,437,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="119" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="33.15"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="postLeftFingersLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="501,496,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="72" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftFingersLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="573,480,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3"/>
+        <Rectangle MouseUp="locationBox_MouseUp"  x:Name="postLeftThumbBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="54" Margin="425,361,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="42" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="79.695"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="postLeftThumbLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="383,359,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="52" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-137.959"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="postLeftThumbLabel" Content="Label" FontSize="25" HorizontalAlignment="Left" Margin="320,309,0,0" VerticalAlignment="Top" Foreground="#FFE8C3C3" RenderTransformOrigin="0.206,0.581"/>
+
+    </Grid>
+</UserControl>

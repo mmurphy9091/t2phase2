@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="MEDICS2014.controls.medsControls.medsUnits"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Button x:Name="unitButton1" Content="gtts/min" Style="{StaticResource TextBtn1}" Margin="79,71,0,0" Click="unitButton_Click"/>
+        <Button x:Name="unitButton1_Copy" Content="mcg" Style="{StaticResource TextBtn1}" Margin="292,71,0,0" Click="unitButton_Click"/>
+        <Button x:Name="unitButton1_Copy1" Content="mg/dL" Style="{StaticResource TextBtn1}" Margin="506,71,0,0" Click="unitButton_Click"/>
+        <Button x:Name="unitButton1_Copy2" Content="mg" Style="{StaticResource TextBtn1}" Margin="718,71,0,0" Click="unitButton_Click"/>
+        <Button x:Name="unitButton1_Copy3" Content="g" Style="{StaticResource TextBtn1}" Margin="79,228,0,0" Click="unitButton_Click"/>
+        <Button x:Name="unitButton1_Copy4" Content="mL" Style="{StaticResource TextBtn1}" Margin="292,228,0,0" Click="unitButton_Click"/>
+        <Button x:Name="unitButton1_Copy5" Content="cc" Style="{StaticResource TextBtn1}" Margin="506,228,0,0" Click="unitButton_Click"/>
+        <Button x:Name="unitButton1_Copy6" Content="L" Style="{StaticResource TextBtn1}" Margin="718,228,0,0" Click="unitButton_Click"/>
+        <Button x:Name="unitButton1_Copy7" Content="Other" Style="{StaticResource TextBtn1}" Margin="79,385,0,0" Click="unitButton_Click"/>
+
+    </Grid>
+</UserControl>

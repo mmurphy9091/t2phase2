@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="MEDICS2014.controls.allergiesMedications2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Label Content="MEDICATION ALLERGIES  Page 2" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Foreground="White"/>
+        <Button x:Name="IodineButton" Content="Iodine" Style="{StaticResource TextBtn1}" Margin="79,71,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="LatexButton" Content="Latex" Style="{StaticResource TextBtn1}" Margin="292,71,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="MacrolidesButton" Content="Macrolides" Style="{StaticResource TextBtn1}" Margin="506,71,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="MorphineButton" Content="Morphine" Style="{StaticResource TextBtn1}" Margin="719,71,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="MotrinButton" Content="Motrin" Style="{StaticResource TextBtn1}" Margin="79,228,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="NaprosynButton" Content="Naprosyn" Style="{StaticResource TextBtn1}" Margin="292,228,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="PCNButton" Content="PCN" Style="{StaticResource TextBtn1}" Margin="506,228,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="SalicylatesButton" Content="Salicylates" Style="{StaticResource TextBtn1}" Margin="719,228,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="SulfaButton" Content="Sulfa" Style="{StaticResource TextBtn1}" Margin="79,385,0,0" Click="allergyButton_Click"/>
+        <Button x:Name="TetracyclinesButton" Content="Tetracyclines" Style="{StaticResource TextBtn1}" Margin="292,383,0,0" FontSize="32" Click="allergyButton_Click"/>
+        <Button x:Name="TylenolButton" Content="Tylenol" Style="{StaticResource TextBtn1}" Margin="506,383,0,0" Click="allergyButton_Click"/>
+        <Button Content="Back" Name="backButton"  Style="{StaticResource BackBtn}" Margin="848,457,0,0" Click="backButton_Click"/>
+        <Button x:Name="nextButton" Content=">" Style="{StaticResource NextBtn}" Margin="933,71,0,0" Click="nextButton_Click"/>
+        <Button x:Name="previousButton" Content="&lt;" Style="{StaticResource NextBtn}" Margin="10,71,0,0" Click="previousButton_Click"/>
+
+    </Grid>
+</UserControl>

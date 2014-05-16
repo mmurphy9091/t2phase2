@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="MEDICS2014.controls.medsControls.medsAnalgesic1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Label Content="ANALGESIC" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Foreground="White"/>
+        <Button x:Name="analgesicButton" Content="Dilaudid" Style="{StaticResource TextBtn1}" Margin="79,71,0,0" Click="medsButton_Click"/>
+        <Button x:Name="analgesicButton_Copy" Content="Fentanyl" Style="{StaticResource TextBtn1}" Margin="292,71,0,0" Click="medsButton_Click"/>
+        <Button x:Name="analgesicButton_Copy1" Content="Hydrocodone" Style="{StaticResource TextBtn1}" Margin="506,71,0,0" FontSize="32" Click="medsButton_Click"/>
+        <Button x:Name="analgesicButton_Copy2" Content="Ibuprofen" Style="{StaticResource TextBtn1}" Margin="718,71,0,0" Click="medsButton_Click"/>
+        <Button x:Name="analgesicButton_Copy3" Content="Ketamine" Style="{StaticResource TextBtn1}" Margin="79,228,0,0" Click="medsButton_Click"/>
+        <Button x:Name="analgesicButton_Copy4" Content="Morphine" Style="{StaticResource TextBtn1}" Margin="292,228,0,0" Click="medsButton_Click"/>
+        <Button x:Name="analgesicButton_Copy5" Content="Oxycodone" Style="{StaticResource TextBtn1}" Margin="506,228,0,0" Click="medsButton_Click"/>
+        <Button x:Name="analgesicButton_Copy6" Content="Toradol" Style="{StaticResource TextBtn1}" Margin="718,228,0,0" Click="medsButton_Click"/>
+        <Button x:Name="analgesicButton_Copy7" Content="Percocet" Style="{StaticResource TextBtn1}" Margin="79,385,0,0" Click="medsButton_Click"/>
+        <Button x:Name="analgesicButton_Copy8" Content="Tylenol" Style="{StaticResource TextBtn1}" Margin="292,385,0,0" Click="medsButton_Click"/>
+        <Button x:Name="analgesicButton_Copy9" Content="Vicodin" Style="{StaticResource TextBtn1}" Margin="506,385,0,0" Click="medsButton_Click"/>
+        <Button Name="backButton" Content="BACK" Style="{StaticResource BackBtn}" Margin="848,457,0,0" Click="backButton_Click"/>
+
+    </Grid>
+</UserControl>

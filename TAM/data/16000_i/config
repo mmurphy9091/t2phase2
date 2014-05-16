@@ -1,0 +1,6 @@
+[fe]
+fs=16000
+nMelChans=40
+minFreq=130
+maxFreq=6800
+fCutUp=6800

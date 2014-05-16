@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="MEDICS2014.controls.treamentsConrols.treatmentsMain"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Button x:Name="airwayButton" Content="Airway" FontSize="45" HorizontalAlignment="Left" Margin="69,77,0,0" VerticalAlignment="Top" Width="222" Height="145" Foreground="Black" Click="sectionButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FF1139A4" Offset="0.562"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="breathingButton" Content="Breathing" FontSize="45" HorizontalAlignment="Left" Margin="382,77,0,0" VerticalAlignment="Top" Width="222" Height="145" Foreground="Black" Click="sectionButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FF1139A4" Offset="0.562"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="circulationButton" Content="Circulation" FontSize="45" HorizontalAlignment="Left" Margin="706,77,0,0" VerticalAlignment="Top" Width="222" Height="145" Foreground="Black" Click="sectionButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FF1139A4" Offset="0.562"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="fluidsButton" Content="Fluids" FontSize="45" HorizontalAlignment="Left" Margin="55,295,0,0" VerticalAlignment="Top" Width="222" Height="145" Foreground="Black" Click="sectionButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FF1139A4" Offset="0.562"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="bloodProductsButton" Content="Blood Product" FontSize="45" HorizontalAlignment="Left" Margin="382,295,0,0" VerticalAlignment="Top" Width="222" Height="145" Foreground="Black" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Click="sectionButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FF1139A4" Offset="0.562"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="otherButton" Content="Other" FontSize="45" HorizontalAlignment="Left" Margin="706,295,0,0" VerticalAlignment="Top" Width="222" Height="145" Foreground="Black" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Click="sectionButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FF1139A4" Offset="0.562"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</UserControl>

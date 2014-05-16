@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="MEDICS2014.controls.treamentsConrols.dextroseDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Button x:Name="dextroseButton250ml" Content="250ml"  Style="{StaticResource TextBtn2}" Margin="247,167,0,0" Click="dextroseVolumeButton_Click"/>
+        <Button x:Name="dextroseButton500ml" Content="500ml"  Style="{StaticResource TextBtn2}" Margin="402,167,0,0" Click="dextroseVolumeButton_Click"/>
+        <Button x:Name="dextroseButton1000ml" Content="1000ml" Style="{StaticResource TextBtn2}" Margin="557,167,0,0" Click="dextroseVolumeButton_Click"/>
+        <Label FontSize="45" Content="Volume"  Style="{StaticResource DefTextLabel}" Margin="40,167,0,0" Background="Transparent" Width="171"/>
+        <!--<Label FontSize="45" Content="Volume" HorizontalAlignment="Left" Margin="72,145,0,0" VerticalAlignment="Top" Foreground="#FFCDA8A8"/>-->
+        <Label FontSize="45" Content="Route" HorizontalAlignment="Left" Margin="40,268,0,0" VerticalAlignment="Top" Foreground="White" Background="Transparent"/>
+        <!--<Label FontSize="45" Content="Route" HorizontalAlignment="Left" Margin="72,248,0,0" VerticalAlignment="Top" Foreground="#FFCDA8A8"/>-->
+        <Button x:Name="dextroseButtonIM" Content="IM" Style="{StaticResource TextBtn2}" Margin="247,268,0,0" Click="dextroseRouteButton_Click"/>
+        <Button x:Name="dextroseButtonIV" Content="IV" Style="{StaticResource TextBtn2}" Margin="402,268,0,0" Click="dextroseRouteButton_Click"/>
+        <Button x:Name="dextroseButtonPO" Content="PO" Style="{StaticResource TextBtn2}" Margin="557,268,0,0" Click="dextroseRouteButton_Click"/>
+        <Button x:Name="dextroseButtonPR" Content="PR" Style="{StaticResource TextBtn2}" Margin="712,268,0,0"  Click="dextroseRouteButton_Click"/>
+        <Button x:Name="dextroseButtonSL" Content="SL" Style="{StaticResource TextBtn2}" Margin="247,356,0,0" Click="dextroseRouteButton_Click"/>
+        <Button x:Name="dextroseButtonSQ" Content="SQ" Style="{StaticResource TextBtn2}" Margin="402,356,0,0" Click="dextroseRouteButton_Click"/>
+
+        <Label FontSize="45" Content="Time"  Style="{StaticResource DefTextLabel}" Margin="40,457,0,0" Background="Transparent"/>
+        <TextBox x:Name="timeTextBox"  Style="{StaticResource DefTextBx}" Margin="247,457,0,0" TextWrapping="Wrap" Text="" GotFocus="textBox_GotFocus" Height="64" Width="232"/>
+        <Button x:Name="getCurrentTimeButton" Style="{StaticResource DefaultBtn}" Content="Current Time" Margin="484,457,0,0" Width="155" Height="64" FontSize="24" Click="getCurrentTimeButton_Click"/>
+        <Button x:Name="doneButton" Style="{StaticResource BackBtn}" Content="DONE" Margin="848,457,0,0" Click="doneButton_Click"/>
+
+        <!--<Label FontSize="45" Content="Time" HorizontalAlignment="Left" Margin="72,421,0,0" VerticalAlignment="Top" Foreground="#FFCDA8A8"/>-->
+        <!--<TextBox Name="timeTextBox" FontSize="36" HorizontalAlignment="Left" Height="auto" Margin="329,437,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="232"/>-->
+        <!--<Button Name="getCurrentTimeButton" FontSize="16" Content="Current Time" HorizontalAlignment="Left" Margin="572,421,0,0" VerticalAlignment="Top" Width="121" Height="94" Click="getCurrentTimeButton_Click"/>-->
+        <!--<Button x:Name="doneButton" FontSize="36" Content="DONE" HorizontalAlignment="Left" Margin="867,421,0,0" VerticalAlignment="Top" Width="121" Height="94" Click="doneButton_Click"/>-->
+        <Label FontSize="45" Content="Percent"  Style="{StaticResource DefTextLabel}" Margin="40,71,0,0" Background="Transparent" Width="171"/>
+        <!--<Label FontSize="45" Content="Percentage" HorizontalAlignment="Left" Margin="72,36,0,0" VerticalAlignment="Top" Foreground="#FFCDA8A8"/>-->
+        <Button x:Name="dextroseButton5Percent" Content="5%" Style="{StaticResource TextBtn2}" Margin="247,71,0,0" Click="dextrosePercentageButton_Click"/>
+        <Button x:Name="dextroseButton10Percent" Content="10%" Style="{StaticResource TextBtn2}" Margin="402,71,0,0" Click="dextrosePercentageButton_Click"/>
+    </Grid>
+</UserControl>

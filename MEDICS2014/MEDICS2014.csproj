@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F226E17-A320-45F9-900D-50F140756A23}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MEDICS2014</RootNamespace>
+    <AssemblyName>MEDICS2014</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Json">
+      <HintPath>..\packages\JsonValue.0.6.0\lib\40\Microsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Server.Common">
+      <HintPath>..\packages\JsonValue.0.6.0\lib\40\Microsoft.Server.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="MedicsConstants.cs" />
+    <Compile Include="controls\Admin.xaml.cs">
+      <DependentUpon>Admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\allergiesApp.xaml.cs">
+      <DependentUpon>allergiesApp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\allergiesMain.xaml.cs">
+      <DependentUpon>allergiesMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\allergiesMedications.xaml.cs">
+      <DependentUpon>allergiesMedications.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\allergiesMedications3.xaml.cs">
+      <DependentUpon>allergiesMedications3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\allergiesMedications2.xaml.cs">
+      <DependentUpon>allergiesMedications2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesAbdomen.xaml.cs">
+      <DependentUpon>injuriesAbdomen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesChest.xaml.cs">
+      <DependentUpon>injuriesChest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesFull.xaml.cs">
+      <DependentUpon>injuriesFull.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesHeadBack.xaml.cs">
+      <DependentUpon>injuriesHeadBack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesHeadFront.xaml.cs">
+      <DependentUpon>injuriesHeadFront.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesLeftArmFront.xaml.cs">
+      <DependentUpon>injuriesLeftArmFront.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesLeftLeg.xaml.cs">
+      <DependentUpon>injuriesLeftLeg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesLowerBack.xaml.cs">
+      <DependentUpon>injuriesLowerBack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesRightArmFront.xaml.cs">
+      <DependentUpon>injuriesRightArmFront.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesRightLegFront.xaml.cs">
+      <DependentUpon>injuriesRightLegFront.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesUpperBack.xaml.cs">
+      <DependentUpon>injuriesUpperBack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesLeftArmBack.xaml.cs">
+      <DependentUpon>injuriesLeftArmBack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesLeftLegBack.xaml.cs">
+      <DependentUpon>injuriesLeftLegBack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesRightArmBack.xaml.cs">
+      <DependentUpon>injuriesRightArmBack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesControls\injuriesRightLegBack.xaml.cs">
+      <DependentUpon>injuriesRightLegBack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesMain.xaml.cs">
+      <DependentUpon>injuriesMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\injuriesPatSum.xaml.cs">
+      <DependentUpon>injuriesPatSum.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\mechanismOfInjury.xaml.cs">
+      <DependentUpon>mechanismOfInjury.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\medsApp.xaml.cs">
+      <DependentUpon>medsApp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\medsControls\medDetails.xaml.cs">
+      <DependentUpon>medDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\medsControls\medsAnalgesic1.xaml.cs">
+      <DependentUpon>medsAnalgesic1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\medsControls\medsAntibiotic1.xaml.cs">
+      <DependentUpon>medsAntibiotic1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\medsControls\medsAntibiotic2.xaml.cs">
+      <DependentUpon>medsAntibiotic2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\medsControls\medsOthers1.xaml.cs">
+      <DependentUpon>medsOthers1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\medsControls\medsPage1.xaml.cs">
+      <DependentUpon>medsPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\medsControls\medsUnits.xaml.cs">
+      <DependentUpon>medsUnits.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\notesApp.xaml.cs">
+      <DependentUpon>notesApp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\patientList.xaml.cs">
+      <DependentUpon>patientList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\patientListFullClass.cs" />
+    <Compile Include="controls\patientSummary.xaml.cs">
+      <DependentUpon>patientSummary.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\pcdApp.xaml.cs">
+      <DependentUpon>pcdApp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\bloodProductsDetails.xaml.cs">
+      <DependentUpon>bloodProductsDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\dextroseDetails.xaml.cs">
+      <DependentUpon>dextroseDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\lactactedRingersDetails.xaml.cs">
+      <DependentUpon>lactactedRingersDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\normalSalineDetails.xaml.cs">
+      <DependentUpon>normalSalineDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\otherBloodProductsDetails.xaml.cs">
+      <DependentUpon>otherBloodProductsDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\otherFluidsDetails.xaml.cs">
+      <DependentUpon>otherFluidsDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\treatmentsAirway.xaml.cs">
+      <DependentUpon>treatmentsAirway.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\treatmentsBloodProducts.xaml.cs">
+      <DependentUpon>treatmentsBloodProducts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\treatmentsBreathing.xaml.cs">
+      <DependentUpon>treatmentsBreathing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\treatmentsCirculation.xaml.cs">
+      <DependentUpon>treatmentsCirculation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\treatmentsFluids.xaml.cs">
+      <DependentUpon>treatmentsFluids.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\treatmentsMain.xaml.cs">
+      <DependentUpon>treatmentsMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treamentsConrols\treatmentsOther.xaml.cs">
+      <DependentUpon>treatmentsOther.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\treatmentsApp.xaml.cs">
+      <DependentUpon>treatmentsApp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\vitals.xaml.cs">
+      <DependentUpon>vitals.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\vitalsAdd.xaml.cs">
+      <DependentUpon>vitalsAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="controls\vitalsMain.xaml.cs">
+      <DependentUpon>vitalsMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="dbJsonInterface\dbJsonParser.cs" />
+    <Compile Include="dbJsonInterface\fullPatientResponse.cs" />
+    <Compile Include="dbJsonInterface\fullPatientResponseClass.cs" />
+    <Compile Include="dbJsonInterface\injuriesResponse.cs" />
+    <Compile Include="Messages.cs" />
+    <Compile Include="MQTT\CompleteArgs.cs" />
+    <Compile Include="MQTT\Core\Messages\IPersistentMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MessageFactory.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttAcknowledgeMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttConnackMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttConnectMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttDisconnectMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttMessageReceivedEventArgs.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttPingReqMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttPingRespMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttPubackMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttPubcompMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttPublishMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttPubrecMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttPubrelMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttSubackMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttSubscribeMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttUnsubackMessage.cs" />
+    <Compile Include="MQTT\Core\Messages\MqttUnsubscribeMessage.cs" />
+    <Compile Include="MQTT\Core\MQTTStreamExceptions.cs" />
+    <Compile Include="MQTT\Core\NotConnectedException.cs" />
+    <Compile Include="MQTT\Core\QoSManager.cs" />
+    <Compile Include="MQTT\Core\StreamFactory.cs" />
+    <Compile Include="MQTT\Core\StreamManager.cs" />
+    <Compile Include="MQTT\Core\Subscription.cs" />
+    <Compile Include="MQTT\DBHandler.cs" />
+    <Compile Include="MQTT\IMqtt.cs" />
+    <Compile Include="MQTT\IMqttConnectDisconnect.cs" />
+    <Compile Include="MQTT\IMqttPublisher.cs" />
+    <Compile Include="MQTT\IMqttShared.cs" />
+    <Compile Include="MQTT\IMqttSharedSubscriber.cs" />
+    <Compile Include="MQTT\IMqttSubscriber.cs" />
+    <Compile Include="MQTT\IPersistence.cs" />
+    <Compile Include="MQTT\Logger\FileLog.cs" />
+    <Compile Include="MQTT\Logger\ILog.cs" />
+    <Compile Include="MQTT\Logger\Log.cs" />
+    <Compile Include="MQTT\MatchTree\Topic.cs" />
+    <Compile Include="MQTT\MatchTree\TopicNode.cs" />
+    <Compile Include="MQTT\MatchTree\TopicTree.cs" />
+    <Compile Include="MQTT\Mqtt.cs" />
+    <Compile Include="MQTT\MqttBroker.cs" />
+    <Compile Include="MQTT\MqttBrokerUnavailableException.cs" />
+    <Compile Include="MQTT\MqttClientFactory.cs" />
+    <Compile Include="MQTT\MqttDelegates.cs" />
+    <Compile Include="MQTT\MqttException.cs" />
+    <Compile Include="MQTT\mqttMain.cs" />
+    <Compile Include="MQTT\MqttNotConnectedException.cs" />
+    <Compile Include="MQTT\MqttParcel.cs" />
+    <Compile Include="MQTT\MqttPayload.cs" />
+    <Compile Include="MQTT\PublishArrivedArgs.cs" />
+    <Compile Include="MQTT\QoS.cs" />
+    <Compile Include="MQTT\VDESHandler.cs" />
+    <Compile Include="patient.cs" />
+    <Compile Include="SystemMessages.cs" />
+    <Compile Include="vitalsInfo.cs" />
+    <Page Include="controls\Admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\allergiesApp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\allergiesMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\allergiesMedications.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\allergiesMedications3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="controls\allergiesMedications2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\HomeScreen1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesAbdomen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesChest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesFull.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesHeadBack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesHeadFront.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesLeftArmFront.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesLeftLeg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesLowerBack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesRightArmFront.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesRightLegFront.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesUpperBack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesLeftArmBack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesLeftLegBack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesRightArmBack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesControls\injuriesRightLegBack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\injuriesPatSum.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\mechanismOfInjury.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\medsApp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\medsControls\medDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\medsControls\medsAnalgesic1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\medsControls\medsAntibiotic1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\medsControls\medsAntibiotic2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\medsControls\medsOthers1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\medsControls\medsPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\medsControls\medsUnits.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\notesApp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\patientList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\patientSummary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\pcdApp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\bloodProductsDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\dextroseDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\lactactedRingersDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\normalSalineDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\otherBloodProductsDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\otherFluidsDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\treatmentsAirway.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\treatmentsBloodProducts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\treatmentsBreathing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\treatmentsCirculation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\treatmentsFluids.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\treatmentsMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treamentsConrols\treatmentsOther.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\treatmentsApp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\vitals.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\vitalsAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="controls\vitalsMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controls\HomeScreen1.xaml.cs">
+      <DependentUpon>HomeScreen1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VitruvianManFull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VitruvianManFull1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VetruvianMan_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VetruvianMan_03_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vitruvian Man Back_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Head_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VetruvianMan_LeftArm_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VetruvianMan_RightArm_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Left Leg_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Right Leg_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Chest_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Abdomen_Genitals_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Head_Neck_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Upper Back_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Lower Back_Buttocks_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Left Arm_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Right Arm_01_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Left Leg_01_croppedVMAN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Right Leg_01_croppedVMAN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Left Leg_01_croppedBACK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PythonScripts\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

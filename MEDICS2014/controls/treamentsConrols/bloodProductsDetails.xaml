@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="MEDICS2014.controls.treamentsConrols.bloodProductsDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    
+    <Grid>
+        <Label Name="title" FontSize="36" Content="Blood Product Details" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" Width="Auto"/>
+        <Label FontSize="45" Content="Route" HorizontalAlignment="Left" Margin="40,268,0,0" VerticalAlignment="Top" Foreground="White" Background="Transparent"/>
+        <Button x:Name="otherButtonIM" Style="{StaticResource TextBtn2}" Content="IM" Margin="247,268,0,0" Click="bloodRouteButton_Click"/>
+        <Button x:Name="otherButtonIV" Style="{StaticResource TextBtn2}" Content="IV" Margin="402,268,0,0" Click="bloodRouteButton_Click"/>
+        <Button x:Name="otherButtonPO" Style="{StaticResource TextBtn2}" Content="PO" Margin="557,268,0,0" Click="bloodRouteButton_Click"/>
+        <Button x:Name="otherButtonPR" Style="{StaticResource TextBtn2}" Content="PR" Margin="712,268,0,0" Click="bloodRouteButton_Click"/>
+        <Button x:Name="otherButtonSL" Style="{StaticResource TextBtn2}"  Content="SL" Margin="247,356,0,0" Click="bloodRouteButton_Click"/>
+        <Button x:Name="otherButtonSQ" Style="{StaticResource TextBtn2}"  Content="SQ" Margin="402,356,0,0" Click="bloodRouteButton_Click"/>
+        <Label FontSize="45" Content="Time"  Style="{StaticResource DefTextLabel}" Margin="40,457,0,0" Background="Transparent"/>
+        <TextBox x:Name="timeTextBox"  Style="{StaticResource DefTextBx}" Margin="247,457,0,0" TextWrapping="Wrap" Text="" GotFocus="textBox_GotFocus" Height="64" Width="232"/>
+        <Button x:Name="getCurrentTimeButton" Style="{StaticResource DefaultBtn}" Content="Current Time" Margin="484,457,0,0" Width="155" Height="64" FontSize="24" Click="getCurrentTimeButton_Click"/>
+        <Button x:Name="doneButton" Style="{StaticResource BackBtn}" Content="DONE" Margin="848,457,0,0" Click="doneButton_Click"/>
+        <Label FontSize="45" Content="Volume"  Style="{StaticResource DefTextLabel}" Margin="40,167,0,0" Background="Transparent" Width="171"/>
+        <Label FontSize="45" Content="Type"  Style="{StaticResource DefTextLabel}" Margin="40,71,0,0" Background="Transparent"/>
+        <TextBox x:Name="doseTextBox" FontSize="36" Style="{StaticResource DefTextBx}" HorizontalAlignment="Left" Height="64" Margin="248,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="518" GotFocus="textBox_GotFocus"/>
+        <Label Name="typeLabel" FontSize="45" Content="Type Name" HorizontalAlignment="Left" Margin="248,71,0,0" VerticalAlignment="Top" Foreground="White" Width="518" Background="Transparent"/>
+    </Grid>
+</UserControl>

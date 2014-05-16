@@ -1,0 +1,152 @@
+﻿<UserControl x:Class="MEDICS2014.controls.injuriesControls.injuriesChest"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="535" d:DesignWidth="998">
+    <Grid>
+        <Button Content="BACK" x:Name="backButton" Style="{StaticResource BackBtn}" Margin="848,457,0,0" Click="backButton_Click"/>
+        <Image Margin="212,54,172,81" Source="/MEDICS2014;component/Chest_01_cropped.png" Stretch="UniformToFill"/>
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="anteriorNeckBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="151" Margin="352,28,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="335" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313"/>
+        <Rectangle x:Name="anteriorNeckLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="643,46,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="116" OpacityMask="#FF3C1313">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="anteriorNeckLabel"  Style="{StaticResource InjuryLabel}" Content="Label" FontSize="25" Margin="758,22,0,0" />
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="leftUpperChestBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="128" Margin="561,156,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="211" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313"/>
+        <Rectangle x:Name="leftUpperChestLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="762,186,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="63" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-38.586"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="leftUpperChestLabel"  Style="{StaticResource InjuryLabel}" Content="Label" FontSize="25" Margin="823,136,0,0" />
+        <Rectangle MouseUp="locationBox_MouseUp"  x:Name="leftAxillaryBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="139" Margin="716,285,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="113" RadiusY="54" RadiusX="54" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="31.289"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="leftAxillaryLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="796,273,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="59" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-38.586"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="leftAxillaryLabel" Content="Label"  Style="{StaticResource InjuryLabel}" FontSize="25" Margin="849,229,0,0" />
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="leftLowerChestBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="112" Margin="548,274,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="211" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313"/>
+        <Rectangle x:Name="leftLowerChestLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="722,392,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="88" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="41.31"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="leftLowerChestLabel" Content="Label"  Style="{StaticResource InjuryLabel}" FontSize="25" Margin="809,404,0,0" />
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="rightLowerChestBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="112" Margin="283,274,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="211" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313"/>
+        <Rectangle x:Name="rightLowerChestLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="206,413,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="128" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-49.318"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="rightLowerChestLabel" Content="Label"  Style="{StaticResource InjuryLabel}" FontSize="25" Margin="167,454,0,0" />
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="rightUpperChestBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="128" Margin="271,156,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="211" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313"/>
+        <Rectangle x:Name="rightUpperChestLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="108,197,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="173" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="18.652"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="rightUpperChestLabel" Content="Label"  Style="{StaticResource InjuryLabel}" FontSize="25" Margin="31,147,0,0" />
+        <Rectangle MouseUp="locationBox_MouseUp"  x:Name="rightAxillaryBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="139" Margin="203,289,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="113" RadiusY="54" RadiusX="54" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="147.118"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="rightAxillaryLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="140,353,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="59" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-1.94"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="rightAxillaryLabel" Content="Label"  Style="{StaticResource InjuryLabel}" FontSize="25" Margin="62,343,0,0" />
+        <Rectangle MouseUp="locationBox_MouseUp" x:Name="sternumBox" StrokeThickness="5" Fill="#000000FF" HorizontalAlignment="Left" Height="112" Margin="398,284,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="245" RadiusY="120.5" RadiusX="120.5" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.85"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="sternumLine" StrokeThickness="5" HorizontalAlignment="Left" Height="5" Margin="130,153,0,0" Stroke="#FFF3D5D5" VerticalAlignment="Top" Width="386" OpacityMask="#FF3C1313" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="22.043"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="sternumLabel" Content="Label"  Style="{StaticResource InjuryLabel}" FontSize="25" Margin="62,54,0,0"/>
+
+    </Grid>
+</UserControl>
